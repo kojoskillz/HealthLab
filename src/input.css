@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_img{
+    background:linear-gradient( rgba(20, 29, 57, 0.203)5%,rgba(0, 10, 90, 0.63)90%  ), url(content-black-male-doctor-pointing-upwards.jpg);
+    background-size: cover;
+    background-position: center;
+    height:80vh;
+}
+
+.container{
+    width: 23rem;
+    height: 33rem;
+}
+
+.container2{
+    width: 23rem;
+    height: 31rem;
+}
+
+.container3{
+    height: 85rem;
+}
+
+.container4{
+    height: 35rem;
+    width: 23rem;
+    background-color: #8fb1ff;
+
+}
+
