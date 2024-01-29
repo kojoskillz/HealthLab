@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navigation_bar -->
+<nav class="h-16  bg-blue-600/75">
+      <h1 class="text-white font-extrabold text-3xl p-3">
+        HealthLab
+      </h1>
+ </nav>
+
+
+<!-- 
+    main_page of the site where users can easily learn mmore about the offers of the website and also
+    book appointment.
+     1. Readmore_button - users gets an understanding of the purpose of the webpage
+     2. Book Appointment_button - users are able to book an appointment by selecting date and 
+        time(a popup box is shown if already filled and user gets a new appointment date - {to be done by BACKEND DEVELOPER}  ) 
+-->
+
+<!-- main_page -->
+<div class="main_img grid place-content-center">
+     <div class="text-center grid place-content-center justify-center ">
+        <h1 class="grid place-content-center text-white text-5xl font-bold">
+            Need A Doctor?
+         </h1>
+         <P class="font-medium text-2xl text-white">
+            We are here to serve...
+         </P>    
+
+         <!-- buttons -->
+         <div class="m-5  flex place-content-center">
+            <!-- readmore button -->
+            <button class="bg-blue-500 p-3 text-white font-bold w-32 m-auto rounded-md">
+                READ MORE
+            </button>
+               
+            <!-- button leads to booking of appointment -->
+            <button class="bg-white p-3 text-black font-bold w-32 m-auto rounded-md">
+                BOOK
+            </button>
+               
+         </div>
+     </div> 
+</div>
+
+
+<!-- content -->
+<div class="mb-20">
+
+    <!-- container -->
+    <div class="bg-white container p-4 -mt-16 rounded-md shadow-lg m-auto">
+            <!-- user searches doctors available -->
+        <div>
+            <h1 class="m-auto font-bold text-lg grid place-content-center p-2">
+                Book An Appointment
+            </h1>
+        </div>
+         
+        <!-- user enters full name -->
+        <div class="grid">
+            <input type="text" placeholder="Enter full name" class="bg-slate-50 m-2 p-2 rounded-md">
+        </div>
+
+        <!-- user enters email address -->
+        <div class="grid ">
+            <input type="text" placeholder="Enter email address" class="bg-slate-50 m-2 p-2 rounded-md">
+        </div>
+
+
+
+        <!-- search doctor -->
+        <div class="grid">
+            <input type="text" placeholder="Search doctor" class="bg-slate-50 m-2 p-2 rounded-md">
+        </div>
+
+        <!-- user selects specialization -->
+        <div class="grid">
+            <input type="text" placeholder="Select specialization" class="bg-slate-50  m-2 p-2 rounded-md">
+        </div>
+
+        <div class="grid">
+            <textarea name="" id="" cols="20" rows="5" class="bg-slate-50 p-3" placeholder="Additional message"></textarea>
+        </div>
+
+        
+    
+
+        <!-- user books appointment, message is sent to the doctor via email -->
+        <button class="bg-blue-500 mt-6 p-3 text-white font-bold w-32 grid place m-auto rounded-md">
+            BOOK NOW
+        </button>
+
+    </div>
+</div>
+    
+
+<!-- services -->
+<div class="mb-20">
+    <h3 class=" text-center font-bold text-blue-500">
+        What We Do
+    </h3>
+    <h1 class="text-5xl text-center font-bold text-gray-700 mt-5">
+        Our Services
+    </h1>
+<br>
+<br>
+    <!-- image & content -->
+
+    <!-- first container -->
+    <div class="container2 shadow-lg rounded-lg m-auto">
+      <img src="content-black-male-doctor-pointing-upwards.jpg" alt="" class="rounded-t-lg">  
+      <div class="m-4">
+        <h1 class="font-bold text-gray-700 text-2xl">
+            Therapy
+        </h1>
+        <p class="text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Explicabo, aperiam, blanditiis tempore, voluptas inventore 
+            soluta veniam dolore nisi sunt consequuntur deleniti deserunt nulla mollitia adipisci. 
+        </p>
+        <!-- link to read more on therapy -->
+        <br>
+        <a href="" class="text-blue-700 font-bold mt-10 text-lg">Read More</a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+        <!-- second container -->
+    <div class="container2 shadow-lg rounded-lg m-auto">
+      <img src="content-black-male-doctor-pointing-upwards.jpg" alt="" class="rounded-t-lg">  
+      <div class="m-4">
+        <h1 class="font-bold text-gray-700 text-2xl">
+            Virus
+        </h1>
+        <p class="text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Explicabo, aperiam, blanditiis tempore, voluptas inventore 
+            soluta veniam dolore nisi sunt consequuntur deleniti deserunt nulla mollitia adipisci. 
+        </p>
+        <!-- link to read more on therapy -->
+        <br>
+        <a href="" class="text-blue-700 font-bold mt-10 text-lg">Read More</a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+        <!-- third container -->
+    <div class="container2 shadow-lg rounded-lg m-auto" >
+      <img src="content-black-male-doctor-pointing-upwards.jpg" alt="" class="rounded-t-lg">  
+      <div class="m-4">
+        <h1 class="font-bold text-gray-700 text-2xl">
+            Dentist
+        </h1>
+        <p class="text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Explicabo, aperiam, blanditiis tempore, voluptas inventore 
+            soluta veniam dolore nisi sunt consequuntur deleniti deserunt nulla mollitia adipisci. 
+        </p>
+        <!-- link to read more on therapy -->
+        <br>
+        <a href="" class="text-blue-700 font-bold mt-10 text-lg">Read More</a>
+      </div>
+    </div>
+
+
+</div>
+
+
+<!-- why choose us -->
+<!-- container -->
+<div class="container3 bg-blue-700">
+    <div class="m-auto p-3">
+        <img src="content-black-male-doctor-pointing-upwards.jpg" alt="" class="rounded-md mt-16">
+        <h1 class="text-4xl font-extrabold text-white text-center mt-7">
+            Why Choose HealthLab?        
+        </h1>
+        <p class="text-white font-semibold text-lg p-2 mt-5">
+            Lorem, ipsum dolor sit amet consectetur adipeatae animi rem provident impedit ullam exercitationem esse unde fuga pariatur, nam quidem porro quas laborum illo architecto?
+        </p>
+    </div>
+
+    
+    <div class="p-5">
+        
+        <img src="" alt="">
+        <h1 class="text-white font-extrabold text-xl">
+            Quality Control System
+        </h1>
+        <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem voluptate adipisci, quam incidunt, 
+        </p>
+    </div>
+
+    <div class="p-5">
+        
+        <img src="" alt="">
+        <h1 class="text-white font-extrabold text-xl">
+            Highly Professional Staff
+        </h1>
+        <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem voluptate adipisci, quam incidunt, 
+        </p>
+    </div>
+
+
+    <!-- container4 -->
+    <div class="container4 mt-16 mb-20 m-auto rounded-md">
+
+        <!-- customers -->
+         <h1 class="text-center font-extrabold text-5xl pt-10 text-white">
+            4200+
+         </h1>
+         <p class="text-center  font-bold text-white p-3 text-xl">
+            Happy Customers
+         </p>
+
+         <!-- projects -->
+         <h1 class="text-center font-extrabold text-5xl pt-5 text-white">
+            30+
+         </h1>
+         <p class="text-center  font-bold text-white p-3 text-xl">
+            Awards Won
+         </p>
+
+         <!-- clients -->
+         <h1 class="text-center font-extrabold text-5xl pt-5 text-white">
+            432+
+         </h1>
+         <p class="text-center  font-bold text-white p-3 text-xl">
+            Clients Work
+         </p>
+
+         <!-- projects -->
+         <h1 class="text-center font-extrabold text-5xl pt-5 text-white">
+            42+
+         </h1>
+         <p class="text-center  font-bold text-white p-3 text-xl">
+           Projets Done
+         </p>
+    </div>
+
+</div>
+
+
+    
+</body>
+</html>
