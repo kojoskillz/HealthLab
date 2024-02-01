@@ -1,6 +1,6 @@
 # HealthLab
 A booking health website
-How it works
+**How it works**
 1. User makes appointment by slecting the following
    a. Date and Time
    b. Doctor
@@ -14,4 +14,4 @@ How it works
 3. User leaves feedback
 
 4. link to the website below:
-   https://healthlab-rx29.onrender.com 
+**   https://healthlab-rx29.onrender.com **
